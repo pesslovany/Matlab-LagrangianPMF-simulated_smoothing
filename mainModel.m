@@ -10,8 +10,6 @@ clear variables
 close all
 format shortG
 
-addpath(genpath(pwd)) % Add binaries and data folders
-
 modelChoose = 1; % Which model to initialize
 smoothing = 1; % Do you want to perform smoothing
 

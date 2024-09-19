@@ -25,8 +25,7 @@ for dim=dims % FFT over all dimensions
 end
 
 % Perform convolution
-pdfIn = pdfIn.*kernel; % without mex file
-%inplaceprod(pdfIn, kernel); % with mex file
+pdfIn = pdfIn.*kernel; 
 
 % Back to state space
 for dim=dims
